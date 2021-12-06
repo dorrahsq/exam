@@ -1,3 +1,4 @@
+## exam
 -  npm run dev: command not found
 install nodemon - npm i nodemon
 
@@ -36,11 +37,9 @@ import dotenv -- const dotenv = require("dotenv"); dotenv.config();
 app.use(express.json()) before app.use(todoRouter);
 > Cast to Boolean failed for value \"dance\" (type string) at path \"task\""
  task: { type: Boolean, required: true } -- Boolean > String
-
- const newTodo = new todoModel({
+> const newTodo = new todoModel({
     task : todo,
   });
 
 - updateTodo > its params so we need to change the endpoint
   todoRouter.put("/todo/:id", updateTodo);
-  
