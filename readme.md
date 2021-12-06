@@ -1,5 +1,5 @@
 ## exam
--  npm run dev: command not found
+-  npm run dev: command not found <br/>
 install nodemon - npm i nodemon
 
 - Error: Cannot find module '../db'
